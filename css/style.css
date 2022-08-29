@@ -33,10 +33,7 @@ header {
     margin-right: 15%;
 }
 
-.skills {
-    margin-left: 20%;
-    margin-right: 20%;
-}
+
 
 .portfolio-part {
     margin-left: 15%;
@@ -179,40 +176,31 @@ button {
 
 .logos {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     margin-top: 80px ;
     padding-bottom: 30px;
 }
 
 .logos p {
-    display: flex;
-    justify-content: center;
-    align-items:center ;
+    margin-top: 23px;
     text-align: center;
-    margin-left: 100px;
     font-family: 'Gilroy-Bold';
     font-size: 14px;
     line-height: 17px;
     color: #828282;
+    min-height: 34px;
 }
 
 .stars {
     margin-top: 60px;
-    display: flex;
+}
+
+.logos div {
+    display: grid;
     justify-content: center;
-    margin-right: 75%;
+    margin-left: 3%;
 }
-
-.logos img {
-    margin-left: 290%;
-    margin-right: 0%;
-}
-
-.figma-stars {
-    margin-top: 75px;
-}
-
-
 .container-portfolio {
     background: #F6F6F6;
     padding-bottom: 22px;
@@ -317,9 +305,4 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.logos-icon {
-    margin-right: 100%;
-    margin-left:-10%;
 }
